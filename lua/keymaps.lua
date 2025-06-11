@@ -32,6 +32,9 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 vim.keymap.set('n', '<leader>o', '<cmd>lua require("mini.files").open()<cr>', { desc = 'Open file browser' })
+vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, { desc = 'Toggle undo tree' })
+vim.keymap.set('n', '<leader>cc', '<cmd>Codi!!<cr>', { desc = 'Toggle Codi' })
+vim.keymap.set('n', '<leader>ce', vim.cmd.CodiExpand, { desc = 'Expand Codi Output Line' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`

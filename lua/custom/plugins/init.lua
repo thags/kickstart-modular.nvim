@@ -4,4 +4,8 @@
 -- See the kickstart.nvim README for more information
 return {
   { 'mbbill/undotree' },
+  { 'metakirby5/codi.vim' },
+  { 'tpope/vim-surround' },
+  { 'tpope/vim-repeat' },
+  { 'justinmk/vim-sneak' },
 }
